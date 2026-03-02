@@ -44,4 +44,18 @@ public class Sol {
 
     }
     
+    public void startwrite(List<String> targeList) {
+
+        String content = "";
+        StringBuilder stringBuilder = new StringBuilder();
+        for(String target: targeList) {
+
+            stringBuilder.append(target);
+            stringBuilder.append("\n"); 
+
+        }
+
+
+        Storage.writeToFile(content);
+    }
 }
