@@ -6,6 +6,7 @@ public class Main {
        // Solution.task01();
 
        
-       Sol.task01();
+        //    Sol.task01();
+        
     }
 }
